@@ -10,10 +10,15 @@ namespace Bookstore.Controllers
 
         public ViewResult Index()
         {
+
             // get a book at random
-            var random = data.Get(new QueryOptions<Book> {
-                OrderBy = b => Guid.NewGuid()
-            });
+            // var random = data.Get(new QueryOptions<Book> {
+            //     OrderBy = b => Guid.NewGuid()
+            //  });
+
+            var random = data.List(new QueryOptions<Book> { 
+                OrderBy = b => b.Title
+            }).FirstOrDefault();
 
             return View(random);
         }
