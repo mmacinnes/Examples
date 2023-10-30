@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Bookstore", "Bookstore\Book
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SignalRChat", "SignalRChat\SignalRChat.csproj", "{EAFEB829-8965-43A7-A5EA-06CA4F062E6D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GrpcGreeter", "GrpcGreeter\GrpcGreeter.csproj", "{D6BF858B-128D-4B3C-B028-BC96EF4ADAFD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GrpcGreeterClient", "GrpcGreeterClient\GrpcGreeterClient.csproj", "{B152B2B9-003B-41BB-ABC3-B25C03FB95D4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,5 +28,13 @@ Global
 		{EAFEB829-8965-43A7-A5EA-06CA4F062E6D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EAFEB829-8965-43A7-A5EA-06CA4F062E6D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EAFEB829-8965-43A7-A5EA-06CA4F062E6D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D6BF858B-128D-4B3C-B028-BC96EF4ADAFD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D6BF858B-128D-4B3C-B028-BC96EF4ADAFD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D6BF858B-128D-4B3C-B028-BC96EF4ADAFD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D6BF858B-128D-4B3C-B028-BC96EF4ADAFD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B152B2B9-003B-41BB-ABC3-B25C03FB95D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B152B2B9-003B-41BB-ABC3-B25C03FB95D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B152B2B9-003B-41BB-ABC3-B25C03FB95D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B152B2B9-003B-41BB-ABC3-B25C03FB95D4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
