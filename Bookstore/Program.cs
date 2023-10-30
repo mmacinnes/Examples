@@ -13,7 +13,7 @@ builder.Services.AddSession();
 builder.Services.AddControllersWithViews();
 
 builder.Services.AddDbContext<BookstoreContext>(options =>
-                options.UseSqlServer(builder.Configuration.GetConnectionString("BookstoreContext")));
+                options.UseSqlite(builder.Configuration.GetConnectionString("BookstoreContext")));
 
 builder.Services.AddIdentity<User, IdentityRole>(options => {
     options.Password.RequiredLength = 6;
