@@ -5,6 +5,26 @@
     "version": "0.2.0",
     "configurations": [
         {
+            "name": "GoogleMap Launch (web)",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build",
+            "program": "${workspaceFolder}/GoogleMap/bin/Debug/net7.0/GoogleMap.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}",
+            "stopAtEntry": false,
+            "serverReadyAction": {
+                "action": "openExternally",
+                "pattern": "\\bNow listening on:\\s+(https?://\\S+)"
+            },
+            "env": {
+                "ASPNETCORE_ENVIRONMENT": "Development"
+            },
+            "sourceFileMap": {
+                "/Views": "${workspaceFolder}/Views"
+            }
+        },
+        {
             "name": "GrpcGreeter Launch (web)",
             "type": "coreclr",
             "request": "launch",
