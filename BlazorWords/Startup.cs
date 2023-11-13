@@ -11,9 +11,14 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using blazorWords.Data;
 using blazorWords.Models;
-
 using Microsoft.AspNetCore.ResponseCompression;
 using BlazorSignalRApp.Server.Hubs;
+
+// Adapted from
+// Online Multiplayer Word Game With Blazor and SignalR on .NetCore
+// Bora Kaşmer
+// https://borakasmer.medium.com/word-game-with-blazor-and-signalr-on-netcore-e14e125233f2
+// https://github.com/borakasmer/BlazorWordGame.git
 
 namespace blazorWords
 {
