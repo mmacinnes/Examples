@@ -23,6 +23,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShowCase", "UnitTestTutoria
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "blazorWords", "BlazorWords\blazorWords.csproj", "{7A88DF8C-4AAD-4600-A08C-A254F8687EF3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ElasticSearch", "ElasticSearch\ElasticSearch.csproj", "{5D260E4B-F62E-46BD-B500-D88E02480EAC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -68,6 +70,10 @@ Global
 		{7A88DF8C-4AAD-4600-A08C-A254F8687EF3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7A88DF8C-4AAD-4600-A08C-A254F8687EF3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7A88DF8C-4AAD-4600-A08C-A254F8687EF3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5D260E4B-F62E-46BD-B500-D88E02480EAC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D260E4B-F62E-46BD-B500-D88E02480EAC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D260E4B-F62E-46BD-B500-D88E02480EAC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D260E4B-F62E-46BD-B500-D88E02480EAC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{C8DE6DC1-A5C2-4BE1-8591-CDD6DBBF96D6} = {57C8A0B5-96E6-4EAA-9546-6503D49EAF9E}
