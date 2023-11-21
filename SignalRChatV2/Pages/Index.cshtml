@@ -1,0 +1,43 @@
+﻿@page
+<div class="container">
+    <div class="row p-1">
+        <div class="col-2">Send To:</div>
+        <div class="col-4"><input type="text" class="w-50" id="sendToInput" value="All"/></div>
+    </div>
+    <div class="row p-1">
+        <div class="col-2">User</div>
+        <div class="col-4"><input type="text" class="w-50" id="userInput" /></div>
+    </div>
+    <div class="row p-1">
+        <div class="col-2">Message</div>
+        <div class="col-4"><input type="text" class="w-100" id="messageInput" /></div>
+    </div>
+    <div class="row p-1">
+        <div class="col-6 text-end">
+            <input type="button" id="sendButton" value="Send Message" value="Hello World"/>
+        </div>
+    </div>
+    <div class="row p-1">
+        <div class="col-6">
+            <hr/>
+        </div>
+    </div>
+    <div class="row p-1">
+        <div class="col-4">
+            <h5>Messages</h5>
+            <hr/>
+        </div>
+        <div class="col-2">
+            <h5>Users</h5>
+            <hr/>
+        </div> 
+    </div>
+    <div class="row p-1">
+        <div class="col-4">
+            <ul id="messagesList"></ul>
+        </div>
+        <div class="col-2" id="usersList"></div> 
+    </div>
+</div>
+<script src="~/js/signalr/dist/browser/signalr.js"></script>
+<script src="~/js/chat.js"></script>

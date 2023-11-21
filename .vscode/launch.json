@@ -5,6 +5,26 @@
     "version": "0.2.0",
     "configurations": [
         {
+            "name": "SignalRChatV2 Launch (web)",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build",
+            "program": "${workspaceFolder}/SignalRChatV2/bin/Debug/net7.0/SignalRChatV2.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/SignalRChatV2",
+            "stopAtEntry": false,
+            "serverReadyAction": {
+                "action": "openExternally",
+                "pattern": "\\bNow listening on:\\s+(https?://\\S+)"
+            },
+            "env": {
+                "ASPNETCORE_ENVIRONMENT": "Development"
+            },
+            "sourceFileMap": {
+                "/Views": "${workspaceFolder}/SignalRChatV2/Views"
+            }
+        },
+        {
             "name": "ElasticSearch Launch (web)",
             "type": "coreclr",
             "request": "launch",
