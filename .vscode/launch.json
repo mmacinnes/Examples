@@ -5,6 +5,26 @@
     "version": "0.2.0",
     "configurations": [
         {
+            "name": "ToDoApi Launch (web)",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build",
+            "program": "${workspaceFolder}/ToDoApi/bin/Debug/net7.0/ToDoApi.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/ToDoApi",
+            "stopAtEntry": false,
+            "serverReadyAction": {
+                "action": "openExternally",
+                "pattern": "\\bNow listening on:\\s+(https?://\\S+)"
+            },
+            "env": {
+                "ASPNETCORE_ENVIRONMENT": "Development"
+            },
+            "sourceFileMap": {
+                "/Views": "${workspaceFolder}/ToDoApi/Views"
+            }
+        },
+        {
             "name": "Reversi Launch (web)",
             "type": "coreclr",
             "request": "launch",
