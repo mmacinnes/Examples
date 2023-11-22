@@ -27,6 +27,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ElasticSearch", "ElasticSea
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SignalRChatV2", "SignalRChatV2\SignalRChatV2.csproj", "{2A0A8014-4205-4654-87C4-48D3D4B6C51C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Reversi", "Reversi\Reversi.csproj", "{5F57EA84-7040-4BBE-A5F9-4EA3295AC822}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -80,6 +82,10 @@ Global
 		{2A0A8014-4205-4654-87C4-48D3D4B6C51C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2A0A8014-4205-4654-87C4-48D3D4B6C51C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2A0A8014-4205-4654-87C4-48D3D4B6C51C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5F57EA84-7040-4BBE-A5F9-4EA3295AC822}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F57EA84-7040-4BBE-A5F9-4EA3295AC822}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F57EA84-7040-4BBE-A5F9-4EA3295AC822}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F57EA84-7040-4BBE-A5F9-4EA3295AC822}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{C8DE6DC1-A5C2-4BE1-8591-CDD6DBBF96D6} = {57C8A0B5-96E6-4EAA-9546-6503D49EAF9E}
