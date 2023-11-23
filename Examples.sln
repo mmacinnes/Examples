@@ -31,6 +31,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Reversi", "Reversi\Reversi.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TodoApi", "ToDoApi\TodoApi.csproj", "{83F47747-C7F5-447C-8BF2-C7D3B220D866}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TodoClient", "TodoClient\TodoClient.csproj", "{9A6872D9-FC8E-4EA6-A291-BD0B05ED7AE8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -92,6 +94,14 @@ Global
 		{83F47747-C7F5-447C-8BF2-C7D3B220D866}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{83F47747-C7F5-447C-8BF2-C7D3B220D866}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{83F47747-C7F5-447C-8BF2-C7D3B220D866}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E604A74A-3F2C-4DC1-8C76-997FEE268EF9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E604A74A-3F2C-4DC1-8C76-997FEE268EF9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E604A74A-3F2C-4DC1-8C76-997FEE268EF9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E604A74A-3F2C-4DC1-8C76-997FEE268EF9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9A6872D9-FC8E-4EA6-A291-BD0B05ED7AE8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A6872D9-FC8E-4EA6-A291-BD0B05ED7AE8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A6872D9-FC8E-4EA6-A291-BD0B05ED7AE8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A6872D9-FC8E-4EA6-A291-BD0B05ED7AE8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{C8DE6DC1-A5C2-4BE1-8591-CDD6DBBF96D6} = {57C8A0B5-96E6-4EAA-9546-6503D49EAF9E}

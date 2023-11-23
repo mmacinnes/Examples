@@ -1,6 +1,4 @@
-namespace TodoApi.Models;
-
-
+namespace TodoClient.Models;
     public class TodoItem
     {
         public long Id { get; set; }
